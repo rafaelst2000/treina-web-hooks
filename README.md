@@ -1,37 +1,99 @@
+<h1 align=center>
+Treinaweb: Despertando o poder dos Hooks
+</h1>
 
-# TreinaWeb: curso ["React - Despertando o Poder dos Hooks"](https://www.treinaweb.com.br/curso/)
+<div align="center">
+
+![Node_Badge][node_version_badge] ![Npm_Badge][npm_version_badge] ![NodeJS_Badge][server_nodejs_badge] [![JavaScript](https://badges.frapsoft.com/javascript/code/javascript.png?v=101)](https://github.com/ellerbrock/javascript-badges/)
+
+</div>
+
+<h3 align="center">
+
+Projeto desenvolvido durante as aulas de **[React-Hooks]**, utilizando as tecnologias ***ReactJS, Javascript e Node.js***.
+
+</h3>
+
+## **:rocket: Objetivo**
+
+O projeto tem como objetivo o uso de diversos React-Hooks, em uma aplicação que consiste em um player de vídeo construído durante as aulas, além de um formlulário para a adição de novos vídeos.
+
+### **Executando o Projeto**
+
+#### **:computer: Frontend**
+> 1. $cd treina-web-hooks
+> 2. $npm install
+> 3. $npm start
+> 4. Acesse localhost:3000
+> 5. Enjoy!
 
 
+<!-- Website Links -->
 
-#### Lista de branches
-|  | Branch | Descrição |
-| ------ | ------ |  ------ | 
-[Download](https://github.com/treinaweb/treinaweb-react-despertando-poder-dos-hooks/archive/aula-02-01.zip)    |  aula-02-01     | Comparação com Classes |
-[Download](https://github.com/treinaweb/treinaweb-react-despertando-poder-dos-hooks/archive/aula-03-01.zip)    |  aula-03-01     | Criando estados em componentes funcionais - useState |
-[Download](https://github.com/treinaweb/treinaweb-react-despertando-poder-dos-hooks/archive/aula-04-01.zip)    |  aula-04-01     | Criando efeitos - useEffect |
-[Download](https://github.com/treinaweb/treinaweb-react-despertando-poder-dos-hooks/archive/aula-04-02.zip)    |  aula-04-02     | Array de Dependências |
-[Download](https://github.com/treinaweb/treinaweb-react-despertando-poder-dos-hooks/archive/aula-04-03.zip)    |  aula-04-03     | Cuidados com Hooks - problemas com Closures |
-[Download](https://github.com/treinaweb/treinaweb-react-despertando-poder-dos-hooks/archive/aula-04-04.zip)    |  aula-04-04     | Lidando com Event Listeners, código assíncrono e destruição de componentes |
-[Download](https://github.com/treinaweb/treinaweb-react-despertando-poder-dos-hooks/archive/aula-05-01.zip)    |  aula-05-01     | Acessando elementos do DOM |
-[Download](https://github.com/treinaweb/treinaweb-react-despertando-poder-dos-hooks/archive/aula-05-02.zip)    |  aula-05-02     | Variáveis de Instância |
-[Download](https://github.com/treinaweb/treinaweb-react-despertando-poder-dos-hooks/archive/aula-06-01.zip)    |  aula-06-01     | Criando Contextos |
-[Download](https://github.com/treinaweb/treinaweb-react-despertando-poder-dos-hooks/archive/aula-06-02.zip)    |  aula-06-02     | Compartilhando dados com o Hook useContext |
-[Download](https://github.com/treinaweb/treinaweb-react-despertando-poder-dos-hooks/archive/aula-07-01.zip)    |  aula-07-01     | O que são Reducers? |
-[Download](https://github.com/treinaweb/treinaweb-react-despertando-poder-dos-hooks/archive/aula-07-02.zip)    |  aula-07-02     | Conhecendo o Hook useReducer |
-[Download](https://github.com/treinaweb/treinaweb-react-despertando-poder-dos-hooks/archive/aula-08-03.zip)    |  aula-08-03     | Cacheando funções com useCallback |
-[Download](https://github.com/treinaweb/treinaweb-react-despertando-poder-dos-hooks/archive/aula-08-04.zip)    |  aula-08-04     | Otimização de valores com useMemo - Memoization |
-[Download](https://github.com/treinaweb/treinaweb-react-despertando-poder-dos-hooks/archive/aula-09-01.zip)    |  aula-09-01     | Criando o seu primeiro Hook |
-[Download](https://github.com/treinaweb/treinaweb-react-despertando-poder-dos-hooks/archive/aula-09-02.zip)    |  aula-09-02     | Analisando a conexão com a Internet |
-[Download](https://github.com/treinaweb/treinaweb-react-despertando-poder-dos-hooks/archive/aula-09-03.zip)    |  aula-09-03     | Sincronizando o estado com o Local Storage |
-[Download](https://github.com/treinaweb/treinaweb-react-despertando-poder-dos-hooks/archive/aula-09-04.zip)    |  aula-09-04     | Pegando um valor anterior (funcionalidade de desfazer) |
-[Download](https://github.com/treinaweb/treinaweb-react-despertando-poder-dos-hooks/archive/aula-09-05.zip)    |  aula-09-05     | Evitando execuções desnecessárias e melhorando a performance com Debounce |
-[Download](https://github.com/treinaweb/treinaweb-react-despertando-poder-dos-hooks/archive/aula-09-06.zip)    |  aula-09-06     | Testando a visibilidade de um elemento - carregando imagens sob demanda / Scroll Infinito |
-[Download](https://github.com/treinaweb/treinaweb-react-despertando-poder-dos-hooks/archive/aula-09-07.zip)    |  aula-09-07     | Criando teclas de atalho |
-[Download](https://github.com/treinaweb/treinaweb-react-despertando-poder-dos-hooks/archive/aula-09-08.zip)    |  aula-09-08     | Verificando o tamanho da janela do navegador |
-[Download](https://github.com/treinaweb/treinaweb-react-despertando-poder-dos-hooks/archive/aula-09-09.zip)    |  aula-09-09     | Testando Hooks - Conheça o useDebugValue |
-[Download](https://github.com/treinaweb/treinaweb-react-despertando-poder-dos-hooks/archive/projeto-02-01.zip)    |  projeto-02-01     | Projeto: Apresentação e Início do Projeto |
-[Download](https://github.com/treinaweb/treinaweb-react-despertando-poder-dos-hooks/archive/projeto-03-01.zip)    |  projeto-03-01     | Projeto: Estados e Formulários |
-[Download](https://github.com/treinaweb/treinaweb-react-despertando-poder-dos-hooks/archive/projeto-05-01.zip)    |  projeto-05-01     | Projeto: Player de Vídeo - Acessando Elementos e Tratando Efeitos |
-[Download](https://github.com/treinaweb/treinaweb-react-despertando-poder-dos-hooks/archive/projeto-06-01.zip)    |  projeto-06-01     | Projeto: Compartilhando Dados Entre Componentes |
-[Download](https://github.com/treinaweb/treinaweb-react-despertando-poder-dos-hooks/archive/projeto-07-01.zip)    |  projeto-07-01     | Projeto: O Poder do useReducer com useContext |
-[Download](https://github.com/treinaweb/treinaweb-react-despertando-poder-dos-hooks/archive/projeto-08-01.zip)    |  projeto-08-01     | Projeto: Economizando Processamento com useMemo |
+[api-covid]: https://api.covid19api.com/summary
+
+<!-- Badges -->
+
+[github_issues_badge]: https://img.shields.io/github/issues/x0n4d0/ecoleta?color=green
+
+[repository_license_badge]: https://img.shields.io/github/license/x0n4d0/ecoleta
+
+[node_version_badge]: https://img.shields.io/badge/node-12.17.0-green
+
+[npm_version_badge]: https://img.shields.io/badge/npm-6.14.4-red
+
+[web_react_badge]: https://img.shields.io/badge/web-react-blue
+
+[mobile_react-native_badge]: https://img.shields.io/badge/mobile-react%20native-blueviolet
+
+[server_nodejs_badge]: https://img.shields.io/badge/server-nodejs-important
+
+<!-- Techs -->
+
+[react]: https://reactjs.org/
+
+[typescript]: https://www.typescriptlang.org/
+
+[node]: https://nodejs.org/en/
+
+[leaflet]: https://react-leaflet.js.org/en/
+
+[ibge_api]: https://servicodados.ibge.gov.br/api/docs/localidades?versao=1
+
+[ibge_api_ufs]: https://servicodados.ibge.gov.br/api/docs/localidades?versao=1#api-UFs-estadosGet
+
+[ibge_api_municipios]: https://servicodados.ibge.gov.br/api/docs/localidades?versao=1#api-Municipios-estadosUFMunicipiosGet
+
+[vscode]: https://code.visualstudio.com/
+
+[react_native]: http://www.reactnative.com/
+
+[stackedit]: https://stackedit.io
+
+[vscode_sqlite_extension]: https://marketplace.visualstudio.com/items?itemName=alexcvzz.vscode-sqlite
+
+[markdown_emoji]: https://gist.github.com/rxaviers/7360908
+
+[commitlint]: https://github.com/conventional-changelog/commitlint
+
+[express]: https://expressjs.com/
+
+[cors]: https://expressjs.com/en/resources/middleware/cors.html
+
+[knex]: http://knexjs.org/
+
+[sqlite3]: https://github.com/mapbox/node-sqlite3
+
+[tsnode]: https://github.com/TypeStrong/ts-node
+
+[feather_icons]: https://feathericons.com/
+
+[insomnia]: https://insomnia.rest/
+
+[react_leaflet]: https://react-leaflet.js.org/
+
+[react_router_dom]: https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom
+
+[react_icons]: https://react-icons.github.io/react-icons/
+
+[axios]: https://github.com/axios/axios
