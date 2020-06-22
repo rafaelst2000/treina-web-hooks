@@ -10,7 +10,7 @@ Treinaweb: Despertando o poder dos Hooks
 
 <h3 align="center">
 
-Projeto desenvolvido durante as aulas de **[React-Hooks]**, utilizando as tecnologias ***ReactJS, Javascript e Node.js***.
+Projeto desenvolvido durante as aulas de **React-Hooks**, utilizando as tecnologias ***ReactJS, Javascript e Node.js***.
 
 </h3>
 
